@@ -22,3 +22,5 @@ Blockchain.prototype.createNewBlock = function (
   this.chain.push(newBlock); // 블록을 체인에 추가
   return newBlock; // 반환
 };
+
+module.exports = Blockchain;
